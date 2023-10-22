@@ -51,10 +51,9 @@ header > a:hover {
   color: crimson;
 }
 
-.education {
+.about-me {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-image: var(--background-color);
   font-size: 1.3rem;
@@ -84,10 +83,6 @@ header > a:hover {
 
 .about-me a:hover {
   color: crimson;
-}
-
-.column {
-  float: left;
 }
 
 .column.left {
