@@ -96,6 +96,7 @@ header > a:hover {
 .column.left {
   width: 20%;
   padding: 15px;
+  float: left;
 }
 
 .column.right {
@@ -107,4 +108,23 @@ header > a:hover {
 .row {
   display: flex;
   flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 970px) {
+  .row {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .column.right {
+    width: 100%;
+  }
+
+  .column.left {
+    width: 100%;
+  }
+
+  .about-me {
+    font-size: 1rem;
+  }
 }
