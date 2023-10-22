@@ -69,6 +69,14 @@ header > a:hover {
   align-items: center;
 }
 
+.skills img {
+  transition: transform 0.3s;
+}
+
+.skills img:hover {
+  transform: scale(1.2);
+}
+
 .column > h2 {
   font-family: "Poppins", cursive;
   display: flex;
